@@ -9,7 +9,7 @@ public class Grupo {
     public String horario;
 
     //Persona[] personas = new Persona[0];
-                                        //Desde aquí ---------------------------------
+                                        //Desde aqui ---------------------------------
 
     public Grupo(Persona[] estudiantes, Persona profesor, Asignatura asignatura, int codigo, String horario) {
         this.estudiantes = estudiantes;
@@ -37,7 +37,7 @@ public class Grupo {
         this.profesor = profesor;
         this.asignatura = asignatura;
     }
-                                            //Hasta aquí --------------------------------------------------
+                                            //Hasta aqui --------------------------------------------------
 
     void cambiarEstudiante(Persona estudianteViejo, Persona estudianteNuevo) {
         for (int i = 0; i < estudiantes.length; i++) {

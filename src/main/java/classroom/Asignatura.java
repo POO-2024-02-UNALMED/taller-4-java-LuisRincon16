@@ -7,7 +7,7 @@ public class Asignatura {
     public int codigoInterno;
     public int codigoExterno;
     public Tipo tipo;
-                                    //desde aquí contructores -----------------------------
+                                    //desde aqui contructores -----------------------------
     public Asignatura() {
         this("Sin nombre",Tipo.FUNDAMENTACION);
     }
@@ -30,7 +30,7 @@ public class Asignatura {
         this.codigoExterno = codigoExterno;
         this.tipo = tipo;
     }
-                                                    //Hasta aquí constructores -----------------------------------------------
+                                                    //Hasta aqui constructores -----------------------------------------------
     public void cambiarDatos(int codigoInterno, int codigoExterno, String nombre,Tipo tipo) {
         this.codigoInterno = codigoInterno;
         this.codigoExterno = codigoExterno;
