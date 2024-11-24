@@ -8,7 +8,7 @@ public class Grupo {
     public int codigo;
     public String horario;
 
-    Persona[] personas = new Persona[0];
+    //Persona[] personas = new Persona[0];
                                         //Desde aquí ---------------------------------
 
     public Grupo(Persona[] estudiantes, Persona profesor, Asignatura asignatura, int codigo, String horario) {
