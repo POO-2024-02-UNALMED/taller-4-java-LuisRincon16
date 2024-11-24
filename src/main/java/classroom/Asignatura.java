@@ -3,14 +3,13 @@ package classroom;
 public class Asignatura {
 
     public String nombre;
-    String n = nombre;
+    //String n = nombre;
     public int codigoInterno;
     public int codigoExterno;
     public Tipo tipo;
-
+                                    //desde aquí contructores -----------------------------
     public Asignatura() {
         this("Sin nombre",Tipo.FUNDAMENTACION);
-        this(0);
     }
 
     public Asignatura(int codigoInterno,Tipo tipo) {
@@ -31,7 +30,7 @@ public class Asignatura {
         this.codigoExterno = codigoExterno;
         this.tipo = tipo;
     }
-
+                                                    //Hasta aquí constructores -----------------------------------------------
     public void cambiarDatos(int codigoInterno, int codigoExterno, String nombre,Tipo tipo) {
         this.codigoInterno = codigoInterno;
         this.codigoExterno = codigoExterno;
