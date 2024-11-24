@@ -7,7 +7,7 @@ public class Persona {
     static int totalPersonas;
     
     static {
-        totalPersonas = 0;
+        Persona.totalPersonas = Persona.totalPersonas + 1;
     }
                         //------------------------------------------------
     public Persona(){
