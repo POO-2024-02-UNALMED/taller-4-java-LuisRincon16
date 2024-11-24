@@ -6,9 +6,9 @@ public class Persona {
     String nombre;
     static int totalPersonas;
     
-    //static {
-    //    totalPersonas = 0;
-    //}
+    static {
+        totalPersonas = 0;
+    }
                         //------------------------------------------------
     public Persona(){
         this.cedula = 0;
